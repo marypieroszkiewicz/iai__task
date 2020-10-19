@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IAI task</title>
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+</head>
+<body>
+<header class="header">
+  <section class="container">
+    <div class="header-top">
+      <span class="header-top__phone"><a href="#">Tel: +48 517 989 511</a></span>
+      <span class="header-top__email">E-mail: sklep@assassins-arms.com</span>
+      <span class="header-top__fb">assasinarms</span>
+    </div>
+    <div class="header-center">
+      <div class="header-center-ctn">
+        <figure class="header-center__logo">
+          <img src="images/logo.png" alt="logo">
+        </figure>
+        <form class="header-center__search" action="">
+          <input type="text" class="header-center__search-input" placeholder="Wpisz czego szukasz...">
+          <button class="header-center__search-btn"><i class="fas fa-search header-center__search-btn--icon"></i></button>
+        </form>
+        <div class="header-center__shopping">
+          <figure class="header-center__shopping-lang">
+            <img src="images/pl.svg" alt="" class="header-center__shopping-flag">
+          </figure>
+          <div class="header-center__shopping-account">
+            <a href="#" class="header-center__shopping-account__anchor">Twoje konto</a>
+          </div>
+          <div class="header-center__shopping-cart">
+            <img src="images/cart.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-nav">
+        <button class="btn-toggle" id="btnToggle" aria-label="Open / Close Menu">
+          <div class="hamburger-container">
+            <div class="hamburger">
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+            </div>
+          </div>
+        </button>
+        <nav class="nav-menu" role="navigation">
+          <ul class="menu">
+            <li class="menu__item menu__item--dropdown">
+              <a href="#" class="menu__link">Gotowe zestawy do gry<span class="menu__link--arrow"></span></a>
+              <ul class="menu-submenu menu-submenu--1 js--menu-submenu">
+                <li class="menu-submenu__item">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item menu__item--dropdown">
+              <a href="#" class="menu__link">Sprzęt<span class="menu__link--arrow"></span></a>
+              <ul class="menu-submenu menu-submenu--1 js--menu-submenu">
+                <li class="menu-submenu__item">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item menu__item--dropdown">
+              <a href="#" class="menu__link">Odzież<span class="menu__link--arrow"></span></a>
+              <ul class="menu-submenu menu-submenu--1 js--menu-submenu">
+                <li class="menu-submenu__item">
+                  <a href="#"></a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link--space js-anchor--link">Kulki</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link--space js-anchor--link">Wyprzedaże</a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+    <div class="header-bottom">
+      <ul class="header-breadcrumb">
+        <li class="header-breadcrumb__item"><a href="#">Strona główna</a></li>
+        <li class="header-breadcrumb__item"><a href="#">Sprzęt</a></li>
+        <li class="header-breadcrumb__item">Marker Tippman FT-50 lite</li>
+      </ul>
+    </div>
+  </section>
+</header>
+<main class="main">
+  <section class="container">
+    <div class="main-product">
+      <div class="main-product__gallery">
+        <figure class="main-product__slide-wrapper">
+          <img id="slideLeft" class="main-product__arrow" src="images/down-arrow.svg">
+          <div class="main-product__slider">
+            <figure class="main-product__thumbnail">
+              <img class="main-product__thumbnail-img active" src="images/product-1.jpg">
+            </figure>
+            <figure class="main-product__thumbnail">
+              <img class="main-product__thumbnail-img" src="images/product-2.jpg">
+            </figure>
+            <figure class="main-product__thumbnail">
+              <img class="main-product__thumbnail-img" src="images/product-3.jpg">
+            </figure>
+            <figure class="main-product__thumbnail">
+              <img class="main-product__thumbnail-img" src="images/product-4.png">
+            </figure>
+            <figure class="main-product__thumbnail">
+              <img class="main-product__thumbnail-img" src="images/product-5.png">
+            </figure>
+            <figure class="main-product__thumbnail">
+              <img class="main-product__thumbnail-img" src="images/product-6.png">
+            </figure>
+          </div>
+          <img id="slideRight" class="main-product__arrow" src="images/down-arrow.svg">
+        </figure>
+        <figure class="main-product__featured">
+          <img class="main-product__featured-img" src="images/product-1.png">
+        </figure>
+      </div>
+      <div class="main-product__info">
+        <div class="main-product__info-desc">
+          <span class="main-product__info-promotion">Promocja</span>
+          <h2 class="main-product__info-title">MARKER TIPPMANN FT- 50
+            LITE 50 CAL RENTAL (BLACK)
+          </h2>
+          <div class="main-product__info-producer">
+            <p class="main-product__info-producer__name">Producent: <span class="main-product__info-producer__name--color">Dye</span></p>
+            <p class="main-product__info-producer__code">kod produktu: 6578758769878</p>
+          </div>
+        </div>
+        <ul class="main-product__info-list" aria-label="Kolor:">
+          <li class="main-product__info-item">
+            <a href="#" class="main-product__info-link"><img src="images/color-1.png" alt="" class="main-product__info-img"></a>
+          </li>
+          <li class="main-product__info-item">
+            <a href="#" class="main-product__info-link"><img src="images/color-2.png" alt="" class="main-product__info-img"></a>
+          </li>
+          <li class="main-product__info-item">
+            <a href="#" class="main-product__info-link"><img src="images/color-3.png" alt="" class="main-product__info-img"></a>
+          </li>
+          <li class="main-product__info-item">
+            <a href="#" class="main-product__info-link"><img src="images/color-1.png" alt="" class="main-product__info-img"></a>
+          </li>
+          <li class="main-product__info-item">
+            <a href="#" class="main-product__info-link"><img src="images/color-2.png" alt="" class="main-product__info-img"></a>
+          </li>
+          <li class="main-product__info-item">
+            <a href="#" class="main-product__info-link"><img src="images/color-3.png" alt="" class="main-product__info-img"></a>
+          </li>
+        </ul>
+        <form class="main-product__info-choose">
+          <div class="main-product__info-choose__col">
+            <label class="main-product__info-choose__label">Długość lufy:</label>
+            <div class="main-product__info-choose__select-wrap">
+              <select name="length" id="length" class="main-product__info-choose__select">
+                <option>120 cm</option>
+                <option>140 cm</option>
+                <option>160 cm</option>
+              </select>
+              <span class="main-product__info-choose__select--down-arrow"></span>
+            </div>
+          </div>
+          <div class="main-product__info-choose__col">
+            <label class="main-product__info-choose__label">Kaliber:</label>
+            <div class="main-product__info-choose__select-wrap">
+              <select name="caliber" id="caliber" class="main-product__info-choose__select">
+                <option value="">55 NU</option>
+                <option value="">60 NU</option>
+                <option value="">75 NU</option>
+              </select>
+              <span class="main-product__info-choose__select--down-arrow"></span>
+            </div>
+          </div>
+        </form>
+        <div class="main-product__info-status">
+          <div class="main-product__info-delivery">
+            <p class="main-product__info-availability">Dostępny na magazynie (14 szt.)
+              <span class="main-product__info-shipment">Wysyłka dzisiaj</span></p>
+          </div>
+          <a href="#" class="main-product__info-check">Sprawdź czasy i koszty wysyłki</a>
+        </div>
+        <div class="main-product__info-price">
+          <div class="main-product__info-cost">
+            <span class="main-product__info-cost__first-price">1499,00 zł</span>
+            <span class="main-product__info-cost__discount">1278,00 zł</span>
+          </div>
+          <div class="main-product__info-counter">
+            <div class="quantity">
+              <button class="quantity__btn quantity__btn--minus disabled" type="button">-</button>
+              <input type="text" id="quantity" class="quantity__input" value="1">
+              <button class="quantity__btn quantity__btn--plus" type="button">+</button>
+            </div>
+           <button class="main-product__info-add">Dodaj do koszyka</button>
+          </div>
+        </div>
+        <div class="main-product__info-negotiations">
+          <div class="main-product__info-negotiations__wrap">
+            <p class="main-product__info-negotiations__text">Znalazłeś ten produkt taniej? <a href="#" class="main-product__info-negotiations__good-price">Wynegocjuj dobrą cenę</a></p>
+          </div>
+          <a href="#" class="main-product__info-negotiations__comparison">dodaj do porównania</a>
+        </div>
+        <div class="main-product__info-benefits">
+          <div class="main-product__info-benefits__box">
+            <p class="main-product__info-benefits__text">Darmowa dostawa
+              <span class="main-product__info-benefits__text--small">dla zamówień powyżej  600 zł</span></p>
+          </div>
+          <div class="main-product__info-benefits__box">
+            <p class="main-product__info-benefits__text">Zwrot towaru
+              <span class="main-product__info-benefits__text--small">do 14 dni od daty zakupu</span></p>
+          </div>
+          <div class="main-product__info-benefits__box">
+            <p class="main-product__info-benefits__text">zakupy na raty
+              <a href="#" class="main-product__info-benefits__text--anchor">oblicz ratę >></a></p>
+          </div>
+          <div class="main-product__info-benefits__box">
+            <p class="main-product__info-benefits__text">Gwarancja 12 miesiący</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-pick">
+      <h2 class="main-pick__title">Dobierz do kompletu</h2>
+      <ul class="main-pick__list">
+        <li class="main-pick__item">
+          <a href="#" class="main-pick__link">
+            <img src="images/pick-product-1.jpg" class="main-pick__img">
+            <div class="main-pick__details">
+              <span class="main-pick__details-title">MASKA EMPIRE E-FLEX
+GOGGLE (BLACK)</span>
+              <span class="main-pick__details-price">139,00 zł</span>
+            </div>
+          </a>
+        </li>
+        <li class="main-pick__item">
+          <a href="#" class="main-pick__link">
+            <img src="images/pick-product-2.jpg" class="main-pick__img">
+            <div class="main-pick__details">
+              <span class="main-pick__details-title">MASKA EMPIRE E-FLEX
+GOGGLE (BLACK)</span>
+              <span class="main-pick__details-price">139,00 zł</span>
+            </div>
+          </a>
+        </li>
+        <li class="main-pick__item">
+          <a href="#" class="main-pick__link">
+            <img src="images/pick-product-3.jpg" class="main-pick__img">
+            <div class="main-pick__details">
+              <span class="main-pick__details-title">MASKA EMPIRE E-FLEX
+GOGGLE (BLACK)</span>
+              <span class="main-pick__details-price">139,00 zł</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="main-desc">
+      <div class="main-desc__left">
+        <div class="main-desc__spec">
+          <h2 class="main-desc__spec-title">Marker Firmy Tippmann</h2>
+          <p class="main-desc__spec-text">stworzony z myślą o młodszych graczach, poprzez zmiejszenie kalubru do 50Cal.
+            FT-50 Lite wygladem przypomina marker FT-12 , jednak rózni się on trochę od swojego pierwowzoru.
+            Marker jest trochę krótszy, korpus ma bardziej agresywny charakter, średnica zewnętrzna oraz wewnętrzna  lufy jest mniejsza oraz średnica otworu podającego kulki w magazynku grawitacyjnym jest dostosowana do kalubru 50Cal.
+
+            kompaktowy militarny wygląd
+            szybkie serwisowanie bez użycia narzędzi
+            aluminiowy chwyt i body
+            wewnętrzny system gazowy "inline bolt system"
+            modułowa konstrukcja
+            stałe przyrządy celownicze
+            Zestaw zawiera magazynek grawitacyjny oraz barrel bag (osłona lufy)</p>
+        </div>
+        <div class="main-desc__questions">
+          <h3 class="main-desc__questions-title main-desc__questions-title--1">Nasi klienci pytali o:</h3>
+          <div class="main-desc__accordion">
+            <h5 class="main-desc__accordion-title">Czy ten pistolet jest idealny do gry w paintballa?</h5>
+            <div class="main-desc__accordion-content">
+              <p class="main-desc__accordion-text">Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma również większe możliwości przebijania celu</p>
+            </div>
+
+            <h5 class="main-desc__accordion-title">Czy ten model posiada mechanizm spustowy ?</h5>
+            <div class="main-desc__accordion-content">
+              <p class="main-desc__accordion-text">Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma również większe możliwości przebijania celu</p>
+            </div>
+
+            <h5 class="main-desc__accordion-title">Jakie dobrać naboje do tego sprzętu?</h5>
+            <div class="main-desc__accordion-content">
+              <p class="main-desc__accordion-text">Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma również większe możliwości przebijania celu</p>
+            </div>
+
+            <h5 class="main-desc__accordion-title">Nie moge znależć instrukcji, czy mi ją doślecie?</h5>
+            <div class="main-desc__accordion-content">
+              <p class="main-desc__accordion-text">Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą lufę i z tego też względu są zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma również większe możliwości przebijania celu</p>
+            </div>
+          </div>
+          <div class="main-desc__questions-ask">
+            <h3 class="main-desc__questions-title main-desc__questions-title--2">Nie znalazłeś odpowiedzi?</h3>
+            <button class="main-desc__questions-btn">Zadaj swoje pytanie</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-desc__right">
+        <div class="main-desc__parameters">
+          <div class="main-desc__parameters-banner">
+            <h3 class="main-desc__parameters-title">Usługi serwisowe</h3>
+            <p class="main-desc__parameters-text">Na sprzęt zakupiony w sklepie
+              <span class="main-desc__parameters-featured">stały rabat -25%</span></p>
+            <a href="#" class="main-desc__parameters-btn" role="button">sprawdź</a>
+          </div>
+          <ul class="main-desc__parameters-details">
+            <li class="main-desc__parameters-item">Numer seryjny:
+              <span class="main-desc__parameters-data">111000</span>
+            </li>
+            <li class="main-desc__parameters-item">Model:
+              <span class="main-desc__parameters-data">TIPPMANN FT- 50 LITE 50</span>
+            </li>
+            <li class="main-desc__parameters-item">Wykończenie:
+              <span class="main-desc__parameters-data">Czarny mat</span>
+            </li>
+            <li class="main-desc__parameters-item">Kaliber:
+              <span class="main-desc__parameters-data">66 LR HV</span>
+            </li>
+            <li class="main-desc__parameters-item">Pojemność magazynka:
+              <span class="main-desc__parameters-data">10 nabojów</span>
+            </li>
+            <li class="main-desc__parameters-item">Mechanizm spustowy:
+              <span class="main-desc__parameters-data">SA (Single Action)</span>
+            </li>
+            <li class="main-desc__parameters-item">Siła nacisku spustu:
+              <span class="main-desc__parameters-data">1.8 kg / 4 lb</span>
+            </li>
+            <li class="main-desc__parameters-item">Wymiary:
+              <span class="main-desc__parameters-data">1200x123mm</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-advice">
+      <h2 class="main-advice__title">Porady Naszego eksperta</h2>
+      <div class="main-advice__content">
+        <div class="main-advice__content-box main-advice__content-box--1">
+          <h4 class="main-advice__content-title">Jak stworzyć samemu farby do gery?</h4>
+          <div class="main-advice__content-wrap">
+            <figure class="main-advice__content-thumbnail">
+              <img src="images/img-blog-1.jpg" alt="" class="main-advice__content-img">
+            </figure>
+            <p class="main-advice__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio. Fusce nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
+          </div>
+        </div>
+
+        <div class="main-advice__content-box main-advice__content-box--2">
+          <h4 class="main-advice__content-title">Jak stworzyć samemu farby do gery?</h4>
+          <div class="main-advice__content-wrap">
+            <figure class="main-advice__content-thumbnail">
+              <img src="images/img-blog-2.jpg" alt="" class="main-advice__content-img">
+            </figure>
+            <p class="main-advice__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend, tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget nec odio. Fusce nec efficitur elit, non ullamcorper libero. Quisque consequat sapien in lacus condimentum posuere.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <section class="container">
+    <div class="footer-ctn">
+      <div class="footer__row footer__row--1">
+        <div class="footer__col footer__col--1">
+          <h3 class="footer__col-title">Informacje</h3>
+          <ul class="footer__col-list">
+            <li class="footer__col-item footer__col-item--1">
+              <a href="#" class="footer__col-link footer__col-link--1">Informacje o sklepie</a>
+            </li>
+            <li class="footer__col-item footer__col-item--2">
+              <a href="#" class="footer__col-link footer__col-link--2">Wysyłka</a>
+            </li>
+            <li class="footer__col-item footer__col-item--3">
+              <a href="#" class="footer__col-link footer__col-link--3">Regulamin</a>
+            </li>
+            <li class="footer__col-item footer__col-item--4">
+              <a href="#" class="footer__col-link footer__col-link--4">Polityka prywatności</a>
+            </li>
+            <li class="footer__col-item footer__col-item--5">
+              <a href="#" class="footer__col-link footer__col-link--5">Odstąpienie od umowy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col footer__col--2">
+          <h3 class="footer__col-title">Moje konto</h3>
+          <ul class="footer__col-list">
+            <li class="footer__col-item footer__col-item--6">
+              <a href="#" class="footer__col-link footer__col-link--6">Zarejestruj się</a>
+            </li>
+            <li class="footer__col-item footer__col-item--7">
+              <a href="#" class="footer__col-link footer__col-link--7">Moje zamówienia</a>
+            </li>
+            <li class="footer__col-item footer__col-item--8">
+              <a href="#" class="footer__col__link footer__col__link--8">Koszyk</a>
+            </li>
+            <li class="footer__col-item footer__col-item--9">
+              <a href="#" class="footer-col__link footer__col-link--9">Ulubione</a>
+            </li>
+            <li class="footer__col-item footer__col-item--10">
+              <a href="#" class="footer__col-link footer__col-link--10">Historia transakcji</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col footer__col--3">
+          <h3 class="footer__col-title">Kontakt</h3>
+          <div class="footer__col-contact">
+            <span class="footer__col-contact__tel">+48 574 046 421</span>
+            <span class="footer__col-contact__email">kontakt@assasinarmy.pl</span>
+            <figure class="footer__col-contact__social">
+              <a href="#" class="footer__col-contact__link">
+                <img src="images/facebook-2.svg" alt="" class="footer__col-contact__icon footer__col-contact__icon--1">
+              </a>
+              <a href="#" class="footer__col-contact__link">
+                <img src="images/instagram.svg" alt="" class="footer__col-contact__icon footer__col-contact__icon--2">
+              </a>
+            </figure>
+          </div>
+        </div>
+        <div class="footer__col footer__col--4">
+          <h3 class="footer__col-title">Moje Zamówienia</h3>
+          <ul class="footer__col-list">
+            <li class="footer__col-item footer__col-item--11">
+              <a href="#" class="footer__col-link footer__col-link--11">Sprawdź status zamówienia</a>
+            </li>
+            <li class="footer__col-item footer__col-item--12">
+              <a href="#" class="footer__col-link footer__col-link--12">Śledź przesyłkę</a>
+            </li>
+            <li class="footer__col-item footer__col-item--13">
+              <a href="#" class="footer__col-link footer__col-link--13">Reklamacje</a>
+            </li>
+            <li class="footer__col-item footer__col-item--14">
+              <a href="#" class="footer-col__link footer-col-link--14">Zwroty</a>
+            </li>
+            <li class="footer__col-item footer__col-item--15">
+              <a href="#" class="footer__col__link footer__col-link--15">Informacje o wymianie</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__row footer__row--2">
+        <figure class="footer__shop">
+          <img src="images/IdoSellShop.png" alt="" class="footer__company">
+        </figure>
+      </div>
+    </div>
+  </section>
+</footer>
+
+<!-- JS Scripts -->
+<script src="js/app.js"></script>
+</body>
+</html>
